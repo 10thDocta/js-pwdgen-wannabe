@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  height: 200px;
+  background-color: lightblue;
+  display: flex;
+}
+
+h1 {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/* MAIN */
+.container {
+  max-width: 1170px;
+  margin: auto;
+  text-align: center;
+}
+
+.container>section {
+  background-color: aquamarine;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 7px 10px 5px 1px rgba(222, 222, 222, 1);
+}
