@@ -1,3 +1,4 @@
+/* reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,9 +26,15 @@ h1 {
   text-align: center;
 }
 
-.container>section {
+section {
   background-color: aquamarine;
   margin: 30px;
+  padding: 7px;
   border-radius: 5px;
   box-shadow: 7px 10px 5px 1px rgba(222, 222, 222, 1);
+  transition: transform .3s;
+}
+
+section:hover {
+  transform: scale(1.1);
 }
